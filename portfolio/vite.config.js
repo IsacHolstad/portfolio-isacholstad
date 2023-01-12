@@ -7,6 +7,7 @@ export default defineConfig({
             input: {
                 home: resolve(__dirname, 'index.html'),
                 skills: resolve(__dirname, 'skills.html'),
+                projects: resolve(__dirname, 'projects.html'),
             }
         }
     }
