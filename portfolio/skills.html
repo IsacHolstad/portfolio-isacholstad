@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Skills</title>
-    <script type="module" src="main.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <script type="module" src="./main.js" defer></script>
 </head>
-<body class="bg-gray-900">
-<header>
-    <nav
-            class="
-          flex flex-wrap
+<body>
+<header class="flex flex-wrap
           items-center
           justify-between
           w-full
@@ -21,57 +20,66 @@
           border-b
           border-gray-800
           text-white
-        "
+          overflow
+          top-0
+          absolute">
+
+    <div>
+        <a href="index.html">
+            <h3 class="font-bold text-white">Isac Holstad</h3>
+        </a>
+    </div>
+
+    <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="menu-button"
+            class="h-6 w-6 cursor-pointer md:hidden block text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
     >
-        <div>
-            <a href="index.html">
-                <h3 class="font-bold text-white">Isac Holstad</h3>
-            </a>
-        </div>
+        <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+        />
+    </svg>
 
-        <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="menu-button"
-                class="h-6 w-6 cursor-pointer md:hidden block text-white"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-        >
-            <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-            />
-        </svg>
-
-        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
-            <ul
-                    class="
+    <div class="hidden w-full md:flex md:items-center md:w-auto " id="menu">
+        <ul class="
               pt-4
               text-base text-gray-700
+              value
               md:flex
               md:justify-between
-              md:pt-0"
-            >
-                <li>
-                    <a class="md:p-4 py-2 block text-white hover:text-purple-400" href="#"
-                    >Skills</a
-                    >
-                </li>
-                <li>
-                    <a class="md:p-4 py-2 block text-white hover:text-purple-400" href="#"
-                    >Projects</a
-                    >
-                </li>
-                <li>
-                    <a class="md:p-4 py-2 block text-white hover:text-purple-400" href="#"
-                    >About</a
-                    >
-                </li>
-            </ul>
-        </div>
-    </nav>
+              md:pt-0
+              overflow-y
+
+
+              z-0
+
+
+
+              "
+        >
+            <li>
+                <a class="md:p-4 py-2 block text-white hover:text-purple-400" href="skills.html"
+                >Skills</a
+                >
+            </li>
+            <li>
+                <a class="md:p-4 py-2 block text-white hover:text-purple-400" href="projects.html"
+                >Projects</a
+                >
+            </li>
+            <li>
+                <a class="md:p-4 py-2 block text-white hover:text-purple-400" href="about.html"
+                >About</a
+                >
+            </li>
+        </ul>
+    </div>
 </header>
 
 
