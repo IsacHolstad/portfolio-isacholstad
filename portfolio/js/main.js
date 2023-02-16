@@ -1,4 +1,4 @@
-import './style.css'
+import '../css/style.css'
 
 const button = document.querySelector('#menu-button');
 const menu = document.querySelector('#menu');
