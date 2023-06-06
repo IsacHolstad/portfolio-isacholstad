@@ -5,14 +5,14 @@ function AboutIsacCard () {
     const headProfile = profileImage;
 
     return (
-        <div className="bg-white py-24 md:py-32 lg:py-40 text-center">
-            <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+        <div className="w-full py-24 md:py-32 lg:py-40 flex justify-center text-center">
+            <div className="mx-auto  max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
                 <ul
                     role="list"
-                    className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-2"
+                    className="mx-auto max-w-xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-2"
                 >
                     <li>
-                        <img className="aspect-[3/2] w-full rounded-2xl object-contain" src={headProfile} alt="profile image of isac holstad" />
+                        <img className="md:aspect-[5/2] sm:aspect-[5/2] w-full  object-contain" src={headProfile} alt="profile image of isac holstad" />
                         <h3 className="mt-6 text-lg font-semibold leading-8 text-gray-900">Isac Holstad</h3>
                         <p className="text-base leading-7 text-gray-700">Junior Frontend Developer</p>
                         <p className="text-base leading-7 text-gray-600">21 years old from Siggerud, Norway</p>
