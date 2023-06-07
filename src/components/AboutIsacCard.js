@@ -12,9 +12,9 @@ function AboutIsacCard () {
                     className="mx-auto max-w-xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-2"
                 >
                     <li>
-                        <img className="md:aspect-[5/2] sm:aspect-[5/2] w-full  object-contain" src={headProfile} alt="profile image of isac holstad" />
-                        <h3 className="mt-6 text-lg font-semibold leading-8 text-gray-900">Isac Holstad</h3>
-                        <p className="text-base leading-7 text-gray-700">Junior Frontend Developer</p>
+                        <img className="md:aspect-[4/2] sm:aspect-[5/2] w-full h-full object-contain" src={headProfile} alt="profile image of isac holstad" />
+                        <h3 className="mt-4 text-xl font-semibold leading-8 text-gray-900">Isac Holstad</h3>
+                        <p className="text-base leading-7 text-gray-800">Junior Frontend Developer</p>
                         <p className="text-base leading-7 text-gray-600">21 years old from Siggerud, Norway</p>
                         <ul role="list" className="mt-6 flex gap-x-6 justify-center">
                             <li>

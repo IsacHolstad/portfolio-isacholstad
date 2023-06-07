@@ -11,9 +11,7 @@ function App() {
         <Skills/>
         <Projects/>
       <Footer/>
-
     </>
-
   );
 }
 

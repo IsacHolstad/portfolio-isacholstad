@@ -4,6 +4,7 @@ import buyBetterImg from "../img/page.icon.png"
 import auctionHouseImg from "../img/logo.svg"
 import snakeGameImg from "../img/snakegame-icon.jpg"
 import noroffLogo from "../img/noroff-logo.png"
+import jsTwoCaImg from "../img/3-30454_bluejay-drawing-baby-blue-bird-clip-art.jpg"
 
 function Projects() {
     const project = [
@@ -49,9 +50,16 @@ function Projects() {
             imageSrc: snakeGameImg,
             imageAlt: "E-commerce website",
         },
+        {
+            id: 6,
+            name: 'SocialMedia App',
+            repo: 'https://github.com/IsacHolstad/js-2-ca',
+            site: 'https://isac-socialmedia-app-js-ca.netlify.app/signup.html',
+            imageSrc: jsTwoCaImg,
+            imageAlt: "Social media app, much like twitter",
+        },
+    ];
 
-
-    ]
     return (
         <>
             <div className="bg-white">
@@ -69,7 +77,7 @@ function Projects() {
                                 </div>
                                 <div className="mt-2 flex justify-between">
                                     <div>
-                                        <h3 className="text-md py-2 text-gray-900 ">
+                                        <h3 className="text-md font-semibold py-2 text-gray-900 ">
                                             {item.name}
                                         </h3>
                                     </div>
