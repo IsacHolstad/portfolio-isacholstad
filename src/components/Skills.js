@@ -1,19 +1,20 @@
 import React from 'react';
-import javascriptIcon from "../img/JavaScript-logo.png"
-import htmlIcon from "../img/html-icon.png"
-import cssIcon from "../img/css-icon.png"
-import reactIcon from "../img/React-icon.svg.png"
-import viteIcon from "../img/vitejs-icon.svg"
-import figmaIcon from "../img/figma-icon.webp"
-import postmanIcon from "../img/postman-icon.png"
-import supabaseIcon from "../img/supabase-icon.png"
-import tailwindIcon from "../img/tailwind-icon.png"
-import bootstrapIcon from "../img/bootstrap-icon.webp"
-import gitIcon from "../img/Git-Icon-1788C.png"
-import webstormIcon from "../img/webstorm-icon.png"
-import sourcetreeIcon from "../img/sourcetree-icon.png"
-import githubIcon from "../img/github-icon.png"
-import netlifyIcon from "../img/netlify-icon.webp"
+import javascriptIcon from "../img/JavaScript-logo.png";
+import htmlIcon from "../img/html-icon.png";
+import cssIcon from "../img/css-icon.png";
+import reactIcon from "../img/React-icon.svg.png";
+import viteIcon from "../img/vitejs-icon.svg";
+import figmaIcon from "../img/figma-icon.webp";
+import postmanIcon from "../img/postman-icon.png";
+import supabaseIcon from "../img/supabase-icon.png";
+import tailwindIcon from "../img/tailwind-icon.png";
+import bootstrapIcon from "../img/bootstrap-icon.webp";
+import gitIcon from "../img/Git-Icon-1788C.png";
+import webstormIcon from "../img/webstorm-icon.png";
+import sourcetreeIcon from "../img/sourcetree-icon.png";
+import githubIcon from "../img/github-icon.png";
+import netlifyIcon from "../img/netlify-icon.webp";
+
 function Skills () {
     return (
         <>

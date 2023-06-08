@@ -1,10 +1,10 @@
 import React from 'react';
-import venueFinderImg from "../img/houseicon.png"
-import buyBetterImg from "../img/page.icon.png"
-import auctionHouseImg from "../img/logo.svg"
-import snakeGameImg from "../img/snakegame-icon.jpg"
-import noroffLogo from "../img/noroff-logo.png"
-import jsTwoCaImg from "../img/blue-bird.jpg"
+import venueFinderImg from "../img/houseicon.png";
+import buyBetterImg from "../img/page.icon.png";
+import auctionHouseImg from "../img/logo.svg";
+import snakeGameImg from "../img/snakegame-icon.jpg";
+import noroffLogo from "../img/noroff-logo.png";
+import jsTwoCaImg from "../img/blue-bird.jpg";
 
 function Projects() {
     const project = [
