@@ -11,6 +11,7 @@ function Projects() {
         {
             id: 1,
             name: 'VenueFinder',
+            description: 'A site much like AirBnB',
             repo: 'https://github.com/IsacHolstad/venuefinder',
             site: 'https://comforting-gelato-d2e497.netlify.app/',
             imageSrc: venueFinderImg,
@@ -19,6 +20,7 @@ function Projects() {
         {
             id: 2,
             name: 'BuyBetter',
+            description: 'A e-commerce site',
             repo: 'https://github.com/IsacHolstad/buybetter',
             site: 'https://6480334bbd88f042442207b3--shiny-moxie-e179f9.netlify.app/',
             imageSrc: buyBetterImg,
@@ -28,6 +30,7 @@ function Projects() {
         {
             id: 3,
             name: 'Noroff Graduation 23',
+            description: 'Show case for student graduating in 2023',
             repo: 'https://github.com/IsacHolstad/graduation--showcase-2023',
             site: 'https://comforting-gelato-d2e497.netlify.app/',
             imageSrc: noroffLogo,
@@ -36,6 +39,7 @@ function Projects() {
         {
             id: 4,
             name: 'Auction House',
+            description: 'Auction site',
             repo: 'https://github.com/IsacHolstad/auction-house-22',
             site: 'https://comforting-gelato-d2e497.netlify.app/',
             imageSrc: auctionHouseImg,
@@ -45,6 +49,7 @@ function Projects() {
         {
             id: 5,
             name: 'Snake game',
+            description: 'a simple snake game',
             repo: 'https://github.com/IsacHolstad/snakegame.react',
             site: 'https://comforting-gelato-d2e497.netlify.app/',
             imageSrc: snakeGameImg,
@@ -53,6 +58,7 @@ function Projects() {
         {
             id: 6,
             name: 'SocialMedia App',
+            description: 'A site much like twitter',
             repo: 'https://github.com/IsacHolstad/js-2-ca',
             site: 'https://isac-socialmedia-app-js-ca.netlify.app/signup.html',
             imageSrc: jsTwoCaImg,
@@ -80,6 +86,7 @@ function Projects() {
                                         <h3 className="text-md font-semibold py-2 text-gray-900 ">
                                             {item.name}
                                         </h3>
+                                        <p className="text-sm text-gray-400 mb-1">{item.description}</p>
                                     </div>
                                 </div>
                                 <div>
