@@ -4,7 +4,7 @@ import buyBetterImg from "../img/page.icon.png"
 import auctionHouseImg from "../img/logo.svg"
 import snakeGameImg from "../img/snakegame-icon.jpg"
 import noroffLogo from "../img/noroff-logo.png"
-import jsTwoCaImg from "../img/3-30454_bluejay-drawing-baby-blue-bird-clip-art.jpg"
+import jsTwoCaImg from "../img/blue-bird.jpg"
 
 function Projects() {
     const project = [

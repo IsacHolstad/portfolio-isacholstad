@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from "../img/IMG_7952 2.png";
+import profileImage from "../img/isac-profile-image.png";
 
 function AboutIsacCard () {
     const headProfile = profileImage;

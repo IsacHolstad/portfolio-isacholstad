@@ -1,5 +1,19 @@
 import React from 'react';
-
+import javascriptIcon from "../img/JavaScript-logo.png"
+import htmlIcon from "../img/html-icon.png"
+import cssIcon from "../img/css-icon.png"
+import reactIcon from "../img/React-icon.svg.png"
+import viteIcon from "../img/vitejs-icon.svg"
+import figmaIcon from "../img/figma-icon.webp"
+import postmanIcon from "../img/postman-icon.png"
+import supabaseIcon from "../img/supabase-icon.png"
+import tailwindIcon from "../img/tailwind-icon.png"
+import bootstrapIcon from "../img/bootstrap-icon.webp"
+import gitIcon from "../img/Git-Icon-1788C.png"
+import webstormIcon from "../img/webstorm-icon.png"
+import sourcetreeIcon from "../img/sourcetree-icon.png"
+import githubIcon from "../img/github-icon.png"
+import netlifyIcon from "../img/netlify-icon.webp"
 function Skills () {
     return (
         <>
@@ -11,98 +25,105 @@ function Skills () {
                     <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-8">
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+                            src={javascriptIcon}
                             alt="Transistor"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+                            src={htmlIcon}
                             alt="Reform"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://cdn.iconscout.com/icon/free/png-512/css3-8-1175200.png"
+                            src={cssIcon}
                             alt="Tuple"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                            src={reactIcon}
                             alt="SavvyCal"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://vitejs.dev/logo.svg"
+                            src={viteIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=670&h=670&q=75&fit=max&auto=format"
+                            src={figmaIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.png"
+                            src={postmanIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png"
+                            src={supabaseIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+                            src={tailwindIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://cdn.iconscout.com/icon/free/png-256/free-bootstrap-6-1175203.png"
+                            src={bootstrapIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                            src={gitIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/WebStorm_Icon.svg/1200px-WebStorm_Icon.svg.png"
+                            src={webstormIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://cdn.icon-icons.com/icons2/3053/PNG/512/sourcetree_macos_bigsur_icon_189711.png"
+                            src={sourcetreeIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                            src={githubIcon}
+                            alt="Statamic"
+                            width={158}
+                            height={48}
+                        />
+                        <img
+                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            src={netlifyIcon}
                             alt="Statamic"
                             width={158}
                             height={48}
