@@ -64,6 +64,15 @@ function Projects() {
             imageSrc: jsTwoCaImg,
             imageAlt: "Social media app, much like twitter",
         },
+        {
+            id: 7,
+            name: 'Crypto Page',
+            description: 'Crypto pricing page',
+            repo: 'https://github.com/IsacHolstad/coincodex',
+            site: 'https://github.com/IsacHolstad/coincodex',
+            imageSrc: 'https://image.cnbcfm.com/api/v1/image/107230869-1682446793111-FLAT_CryptoQuiz_V1_1.png?v=1682689624',
+            imageAlt: 'crypto page with live pricing',
+        }
     ];
 
     return (
